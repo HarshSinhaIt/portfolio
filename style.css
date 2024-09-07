@@ -452,4 +452,89 @@
   }
 }
 
+
+
+
+
+
+
+@media (max-width: 768px) {
+    /* Navigation Menu */
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        text-align: center;
+    }
+
+    .nav-links li {
+        display: block;
+        margin: 20px 0;
+    }
+
+    /* Hero Section */
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .cta-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    /* About Section */
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .about-image img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Projects Grid */
+    .project-grid {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    /* Education Section */
+    .education-container {
+        padding: 20px;
+    }
+
+    /* Skills Section */
+    .skill-list {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .skill {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Contact Section */
+    #contact {
+        padding: 20px;
+    }
+
+    #contact p, #contact-details p {
+        font-size: 1rem;
+    }
+}
+
   
